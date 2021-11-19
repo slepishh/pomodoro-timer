@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro timer</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/pomodoro_logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/pomodoro_logo.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <span>POMODORO Timer </span>
+            <img src="img/pomodoro_logo.svg" alt="">
+        </div>
+        <div class="header__id">
+            <!-- <span class="id-name"> 
+                Slep.ishh
+            </span>
+            <div class="id-icon">
+                <img src="img/id__icon.svg" alt="">
+            </div>-->
+            <div class="login"><a href="#"> Вход</a>
+            </div>
+            <div class="sing-up"><a href="#">Регистрация</a>
+            </div>
+    </header>
+    <section class="main">
+        <section class="to-do">
+            <h2>Список дел</h2>
+            <!--
+            <div class="to-do__task">
+                <input type="radio">
+                <span class="checkmark"></span>
+                <label>Задача 1</label>
+            </div>
+            <div class="to-do__task">
+                <input type="radio">
+                <span class="checkmark"></span>
+                <label>Задача 2</label>
+            </div>
+            <div class="to-do__task">
+                <input type="radio">
+                <span class="checkmark"></span>
+                <label>Задача 3</label>
+            </div>
+            <div class="to-do__task finish">
+                <input type="radio" disabled>
+                <span class="checkmark"></span>
+                <label>Задача 4</label>
+            </div>-->
+
+
+
+            <ul class="todos">
+
+                <li>
+                    <h3>заголовок задачи</h3>
+                    <p>описание задачи</p>
+                </li>
+
+            </ul>
+
+
+
+
+
+
+            <input class="to-do__write" type="text" placeholder="Напишите задачу тут..">
+            <div class="to-do__button">
+                <button class="add">Добавить</button>
+                <button class="delete">Удалить все</button>
+            </div>
+        </section>
+        <section class="timer">
+            <div class="timer__content">
+                <span class="status-timer">Work</span>
+                <div class="timer__time">25:00</div>
+                <div class="timer__buttons">
+                    <button>Старт</button>
+                    <button>Стоп</button>
+                </div>
+                <div class="timer__settings"></div>
+            </div>
+        </section>
+    </section>
+
+    <script src="js/todo.js"></script>
+</body>
+
+</html>
