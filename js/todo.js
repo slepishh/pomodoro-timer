@@ -29,5 +29,6 @@ document.querySelector("ul").onclick = function(event) {
     let target = event.target;
     if (target.tagName == 'LI') {
         target.classList.toggle('finish');
+        console.log(event)
     }
 }
