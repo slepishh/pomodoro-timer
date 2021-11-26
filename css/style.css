@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(tabs.css);
 @import url(popup.css);
+@import url(timer.css);
 @font-face {
     font-family: RobotoR;
     src: url(fonts/Roboto-Regular.ttf);
@@ -76,8 +77,7 @@ body {
     font-size: 25px;
 }
 
-.to-do,
-.timer {
+.to-do {
     width: 520px;
     display: flex;
     background-color: #344252;
