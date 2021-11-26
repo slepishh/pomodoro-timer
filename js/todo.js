@@ -1,5 +1,6 @@
 let ul = document.querySelector("ul");
-let input = document.querySelector(".to-do__write");
+let input = document.querySelector("input");
+
 
 
 input.onkeypress = function(event) {
