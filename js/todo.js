@@ -1,5 +1,5 @@
 let ul = document.querySelector("ul");
-let input = document.querySelector("input");
+let input = document.querySelector(".to-do__write");
 
 
 
