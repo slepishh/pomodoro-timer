@@ -93,8 +93,8 @@
                 <span class="status-timer">Work</span>
                 <div class="timer__time">25:00</div>
                 <div class="timer__buttons">
-                    <button>Старт</button>
-                    <button>Стоп</button>
+                    <button class="start">Старт</button>
+                    <button class="stop" oncl ick="stop()">Стоп</button>
                 </div>
                 <hr>
                 <div class="timer__settings">
@@ -115,7 +115,7 @@
                         <input type="number" id="round-timer">
                     </div>
                     <div class="timer__work">
-                        <label for="sound-timer">Взвуковое уведдомление</label>
+                        <label for="sound-timer">Звуковое уведдомление</label>
                         <input type="checkbox" id="sound-timer">
                     </div>
                 </div>
@@ -126,6 +126,7 @@
     <script src="js/tabs.js"></script>
     <script src="js/popup.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/timer.js"></script>
 </body>
 
 </html>
